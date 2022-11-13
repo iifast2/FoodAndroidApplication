@@ -27,6 +27,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.viewholder>{
         this.context = context;
     }
 
+
     @NonNull
     @Override
     public viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -50,7 +51,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.viewholder>{
         return list.size();
     }
 
-    public class viewholder extends RecyclerView.ViewHolder {
+    public static class viewholder extends RecyclerView.ViewHolder {
 
         ImageView foodimage ;
         TextView mainName , price , description ;

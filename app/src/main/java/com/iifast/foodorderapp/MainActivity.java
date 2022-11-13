@@ -3,7 +3,9 @@ package com.iifast.foodorderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 
 import com.iifast.foodorderapp.Adapters.MainAdapter;
@@ -33,12 +35,15 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainModel(R.drawable.chiken , "Chicken", "10" , "Fried chicken wings"));
         list.add(new MainModel(R.drawable.pasta , "Pasta", "15" , "Carbonara pasta with bacon"));
 
-        //MainAdapter adapter = new MainActivity(list , this);
-        //binding.recyclerview.setAdapter(adapter);
 
+        MainAdapter adapter = new MainAdapter(list, this);
+        binding.recyclerview.setAdapter(adapter);
 
+        
 
     }
+
+
 }
 
 
