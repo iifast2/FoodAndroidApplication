@@ -1,12 +1,14 @@
 package com.iifast.foodorderapp;
-//   45:17
+//   46:10
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.text.Layout;
 
 import com.iifast.foodorderapp.Adapters.MainAdapter;
 import com.iifast.foodorderapp.Models.MainModel;
@@ -39,7 +41,10 @@ public class MainActivity extends AppCompatActivity {
         MainAdapter adapter = new MainAdapter(list, this);
         binding.recyclerview.setAdapter(adapter);
 
-        
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        binding.recyclerview.setLayoutManager(layoutManager);
+
+       //
 
     }
 
