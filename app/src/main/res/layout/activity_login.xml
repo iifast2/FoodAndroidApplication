@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="#221246"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To login as administrator ( email: admin , password: admin); you can add food (item) to the menu ( food list)" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="239dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/devliery2" />
+
+            <EditText
+                android:id="@+id/email1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded"
+                android:drawablePadding="5dp"
+                android:hint="Email"
+                android:padding="10dp"
+
+
+                android:textSize="15dp"></EditText>
+
+            <EditText
+                android:id="@+id/password1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+
+                android:textSize="15dp"></EditText>
+
+            <Button
+                android:id="@+id/signin1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/theme"
+                android:padding="10dp"
+                android:text="Login"
+                android:textSize="25dp"
+                app:backgroundTint="#9A99F2">
+
+
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
