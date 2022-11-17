@@ -1,14 +1,6 @@
 # FoodAndroidApplication
  
-## Final Version 
+## Final Version 2
 
 <br/>
 <br/>
-
-need to fix pics in adapter / recyclerview 
-
-
-```
-final version 1
-
-```

@@ -22,12 +22,6 @@
         android:textSize="30dp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="To login as administrator ( email: admin , password: admin); you can add food (item) to the menu ( food list)" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
