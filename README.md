@@ -11,7 +11,7 @@
 
 # Food Android App - Mobile Application 
 
-This is a Food Mobile Application developed using android , java , sqlite.
+Food Application - PiDev project - Off-line Android App ( android studio, java, xml, sqlite)
 
 
 <br/><br/>
