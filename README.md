@@ -12,7 +12,8 @@
 # Food Android App - Mobile Application 
 
 Food Application - PiDev project - Off-line Android App ( android studio, java, xml, sqlite)
-
+</br> 
+runs on android emulator API 31 
 
 <br/><br/>
 
